@@ -43,6 +43,7 @@ cat <<'EOF' >> /home/stack/init.sh
     # Upgrade setuptools
     sudo pip install --upgrade setuptools
     sudo pip install --upgrade decorator
+    sudo pip install --upgrade i18n
 
     # grant external access to vms
     echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
